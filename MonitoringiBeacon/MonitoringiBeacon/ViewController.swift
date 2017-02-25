@@ -19,6 +19,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate, UITableViewDel
     
     
     // 今回の検知対象は3つのUUID。(OS等のバージョンで検出可能な上限数は20個程度が目安)
+    // send側では「EC2」を使用している
     let UUIDList = [
         "9EDFA660-204E-4066-8644-A432AE2B6EC1",
         "9EDFA660-204E-4066-8644-A432AE2B6EC2",
